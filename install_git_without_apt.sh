@@ -1,7 +1,7 @@
-tar xzvf git-latest.tar.gz
-cd git-{date} // edit it
+unzip ./git-latest.zip
+cd git-master
 autoconf
 ./configure --with-curl=/usr/local
 make
-make install
+sudo make install
 
