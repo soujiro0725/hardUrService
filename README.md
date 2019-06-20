@@ -1,5 +1,8 @@
 # hardUrService
 
+## check architecture
+if 32bit,...
+
 ## check access from target server to ELK host
 
 ## in case impossible to install 'git'
@@ -13,6 +16,12 @@ Uploading /Users/gsx/Downloads/hardenUrService-master.zip to /home/msfadmin/hard
 /Users/gsx/Downloads/hardenUrService-master.zip                                                                                 100% 9303KB  71.7MB/s   00:00
 sftp> quit
 [gsx:19/06/20 10:58:58 hardenUrService]$
+~~~
+
+# send logs to logstash
+
+~~~
+curl -F file="@/var/log/apache2/error.log" http://172.16.255.3:31311
 ~~~
 
 
