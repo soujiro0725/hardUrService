@@ -1,0 +1,6 @@
+paramiko
+scp
+
+# for emacs
+python-language-server
+pyls-black
