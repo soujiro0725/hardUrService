@@ -1,5 +1,6 @@
 paramiko
 scp
+ipython
 
 # for emacs
 python-language-server
